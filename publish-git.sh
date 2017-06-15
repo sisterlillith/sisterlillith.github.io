@@ -8,5 +8,5 @@ pushd `dirname $0`
 cp 1.html index.html
 git add . --all
 git commit -m "New post $(date)"
-git push -u origin/master
+git push origin master
 popd
